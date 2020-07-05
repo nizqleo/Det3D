@@ -32,7 +32,7 @@ class NuScenesDataset(PointCloudDataset):
         self,
         info_path,
         root_path,
-        nsweeps=0,  # catch sweep mistake 
+        nsweeps=1,
         cfg=None,
         pipeline=None,
         class_names=None,
